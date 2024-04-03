@@ -1,0 +1,11 @@
+const readlineSync = require("readline-sync");
+
+const nome = readlineSync.question('qual seu nome: ')
+const idade = readlineSync.question('qual sua idade: ')
+const cidade = readlineSync.question('qual seu cidade: ')
+
+console.log("nome", nome)
+console.log("idade", idade)
+console.log("cidade", cidade)
+
+
